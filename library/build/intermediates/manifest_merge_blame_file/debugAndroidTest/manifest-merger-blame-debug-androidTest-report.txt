@@ -1,0 +1,33 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.imanoweb.calendarview.test" >
+4
+5    <uses-sdk
+5-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:5:5-72
+6        android:minSdkVersion="1"
+6-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:5:15-40
+7        android:targetSdkVersion="1" />
+7-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:5:41-69
+8
+9    <instrumentation
+9-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:11:5-15:80
+10        android:name="android.test.InstrumentationTestRunner"
+10-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:11:22-75
+11        android:functionalTest="false"
+11-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:13:22-53
+13        android:label="Tests for com.imanoweb.calendarview.test"
+13-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:15:22-78
+14        android:targetPackage="com.imanoweb.calendarview.test" />
+14-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:12:22-76
+15
+16    <application android:debuggable="true" >
+16-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:7:5-9:19
+16-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:7:18-43
+17        <uses-library android:name="android.test.runner" />
+17-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:8:9-60
+17-->/Users/juliagimbernat/AndroidStudioProjects/Custom-Calendar-View/library/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger1479556182801569281.xml:8:23-57
+18    </application>
+19
+20</manifest>

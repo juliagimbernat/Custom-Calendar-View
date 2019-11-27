@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#222222</color>
+    <color name="current_day_of_month">#03A7E9</color>
+    <color name="day_disabled_background_color">#F1F5F8</color>
+    <color name="day_disabled_text_color">#DEDEDE</color>
+    <color name="selected_day_background">#03A7E9</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="calendarTitlePaddingBottom">8dp</dimen>
+    <dimen name="calendarTitlePaddingTop">8dp</dimen>
+    <dimen name="dateTitleTextSize">18sp</dimen>
+    <dimen name="dayOfMonthImageMarginTop">20dp</dimen>
+    <dimen name="dayOfMonthIndicatorSize">3dp</dimen>
+    <dimen name="dayOfWeekTextSize">16sp</dimen>
+    <dimen name="day_of_month_background_size">32dp</dimen>
+    <dimen name="minDayCellHeight">40dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="underline_height">2dp</dimen>
+    <dimen name="underline_weight">6dp</dimen>
+    <dimen name="weekTitlePaddingBottom">8dp</dimen>
+    <dimen name="weekTitlePaddingTop">8dp</dimen>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CalendarView"/>
+    <style name="CalendarView.DayOfTheMonth">
+        <item name="android:textSize">14sp</item>
+        <item name="android:minHeight">@dimen/minDayCellHeight</item>
+    </style>
+    <style name="CalendarView.DayOfTheWeek">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CalendarView.MonthTitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <declare-styleable name="CustomCalendarView">
+        <attr format="color" name="calendarTitleTextColor"/>
+        <attr format="color" name="dayOfWeekTextColor"/>
+        <attr format="color" name="dayOfMonthTextColor"/>
+        <attr format="color" name="calendarBackgroundColor"/>
+        <attr format="color" name="disabledDayBackgroundColor"/>
+        <attr format="color" name="disabledDayTextColor"/>
+        <attr format="color" name="selectedDayBackgroundColor"/>
+        <attr format="color" name="selectedDayTextColor"/>
+        <attr format="color" name="weekLayoutBackgroundColor"/>
+        <attr format="color" name="titleLayoutBackgroundColor"/>
+        <attr format="color" name="currentDayOfMonthColor"/>
+    </declare-styleable>
+</resources>
